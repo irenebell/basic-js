@@ -4,6 +4,9 @@ const MODERN_ACTIVITY= 15;
 const HALF_LIFE_PERIOD= 5730;
 
 module.exports = function dateSample(/* sampleActivity */) {
-  throw new CustomError('Not implemented');
-  // remove line with error and write your code here
+  if (sampleActivity === NaN) {
+    return false;
+  }
+ let age = Math.log(15/MODERN_ACTIVITY) / 0.000122;
+ return age;
 };
