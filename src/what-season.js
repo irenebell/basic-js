@@ -12,5 +12,5 @@ module.exports = function getSeason(/* date */) {
    else if  (month == 5 || month == 6 ||  month == 7) {return 'summer';}
   else if (month == 8  || month == 9 || month == 10) {return 'fall';}
    
-  else return 'Error';
+  else return ('Error');
 };
